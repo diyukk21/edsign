@@ -705,3 +705,53 @@ body {
 .legal-links p:hover {
   color: #38bdf8;
 }
+@media screen and (max-width:768px) {
+    .navbar{
+        width: 100%;
+        padding: 0px;
+    }
+    .logo{
+        padding: 0 20px;
+    }
+    .logo img{
+        width: 68px;
+    }
+    .link{
+        display: none;
+    }
+    .call{
+        padding: 0px;
+    }
+    .call a{
+        font-size: 11px;
+    }
+    .frame4{
+        min-height: 50vh;
+        
+    }
+    .frame5{
+        min-height: 50vh;
+    }
+    .frame5 p{
+        font-size: 8px;
+    }
+    .frame9 h2{
+        font-size: 16px;
+    }
+    .frame1 a{
+        font-size: 11px;
+        padding: 0 0 ;
+    }
+    .frame1{
+        padding: 5px 10px;
+        height: fit-content;
+    }
+    .frame2 a{
+        font-size: 11px;
+        padding: 0 0 ;
+    }
+    .frame2{
+        padding: 5px 10px;
+        height: fit-content;
+    }
+}
