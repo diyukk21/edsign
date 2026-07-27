@@ -261,7 +261,7 @@ body {
     align-items: center;
     padding: 10px;
     width: 100%;
-    background: #f8f4ef;
+    background: #ffffff;
     overflow: hidden;
     position: relative;
 }
@@ -272,7 +272,6 @@ body {
 }
 .carousel-track-wrapper{
     overflow: hidden;
-    border-radius: 20px;
 }
 .carousel-track{
     display: flex;
@@ -287,11 +286,11 @@ body {
     padding: 10px;
 }
 .carousel-slide img{
-    width: 100%;
+    width: 50%;
+    max-width: 50%;
     height: auto;
-    max-height: 433px;
+    max-height: 216px;
     object-fit: contain;
-    border-radius: 20px;
 }
 .carousel-btn{
     position: absolute;
@@ -760,26 +759,31 @@ body {
         gap: 10px;
     }
     .desktop2{
-        height: 40vh;
+        height: 25vh;
+    }
+    .frame10 {
+        gap: 7px;
     }
     .frame10 .pretitle{
         font-size: 10px;
     }
     .frame10 .description{
         font-size: 8px;
+        line-height: 10px;
     }
     .frame10{
         width: fit-content;
         padding: 0 10px;
     }
     .frame10 h2{
-        font-size: 24px;
+        font-size: 21px;
     }
     .frame17 a{
         font-size: 11px;
     }
     .frame11{
-        width: min(243px, 100%);
+        width: auto;
+        height: auto;
         max-width: 100%;
         margin: 0 auto;
         display: flex;
@@ -808,7 +812,6 @@ body {
     }
     .carousel-slide img{
         max-height: 220px;
-        border-radius: 12px;
     }
     .carousel-btn{
         width: 36px;
@@ -819,18 +822,18 @@ body {
         height: 25vh;
     }
     .frame33 h2{
-        font-size: 21px;
+        font-size: 23px;
     }
     .frame33 p {
-        font-size: 5px;
+        font-size: 7px;
     }
     .desktop3 img{
-        width: 200px;
+        width: 165px;
     }
     .desktop3{
-           justify-content: space-between;
+        justify-content: space-between;
         display: flex;
-        padding: 0 10px;
+        padding: 0 20px;
         height: fit-content;
     }
     .frame34 h2{
