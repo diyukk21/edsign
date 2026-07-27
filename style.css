@@ -262,7 +262,6 @@ body {
     padding: 10px;
     width: 100%;
     background: #f8f4ef;
-    border-radius: 24px;
     overflow: hidden;
     position: relative;
 }
@@ -733,10 +732,10 @@ body {
         min-height: 50vh;
     }
     .frame5 p{
-        font-size: 8px;
+        font-size: 11px;
     }
     .frame9 h2{
-        font-size: 16px;
+        font-size: 25px;
     }
     .frame1 a{
         font-size: 11px;
@@ -753,5 +752,67 @@ body {
     .frame2{
         padding: 5px 10px;
         height: fit-content;
+    }
+    .frame5{
+        padding: 20px;
+    }
+    .frame8{
+        gap: 10px;
+    }
+    .desktop2{
+        height: 40vh;
+    }
+    .frame10 .pretitle{
+        font-size: 10px;
+    }
+    .frame10 .description{
+        font-size: 8px;
+    }
+    .frame10{
+        width: fit-content;
+        padding: 0 10px;
+    }
+    .frame10 h2{
+        font-size: 24px;
+    }
+    .frame17 a{
+        font-size: 11px;
+    }
+    .frame11{
+        width: min(243px, 100%);
+        max-width: 100%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .frame16{
+        padding: 8px;
+        width: 100%;
+        box-sizing: border-box;
+        max-width: 243px;
+        margin: 0 auto;
+    }
+    .frame32{
+        gap: 0;
+    }
+    .carousel{
+        width: 100%;
+        max-width: 243px;
+    }
+    .carousel-track-wrapper{
+        border-radius: 12px;
+    }
+    .carousel-slide{
+        padding: 0;
+    }
+    .carousel-slide img{
+        max-height: 220px;
+        border-radius: 12px;
+    }
+    .carousel-btn{
+        width: 36px;
+        height: 36px;
+        font-size: 20px;
     }
 }
