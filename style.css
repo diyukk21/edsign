@@ -222,7 +222,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    width: min(433px, 100%);
+    width: 50%;
     gap: 20px;
 }
 .frame10 .pretitle{
@@ -253,7 +253,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: min(543px, 100%);
+    width: 50%;
 }
 .frame16{
     display: flex;
@@ -803,7 +803,21 @@ body {
         margin: 0 auto;
     }
     .frame32{
-        gap: 0;
+        gap: 12px;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: stretch;
+        width: 100%;
+        padding: 0 8px;
+        box-sizing: border-box;
+    }
+    .frame10{
+        width: 50%;
+        box-sizing: border-box;
+    }
+    .frame11{
+        width: 50%;
+        box-sizing: border-box;
     }
     .carousel{
         width: 100%;
