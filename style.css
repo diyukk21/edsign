@@ -730,32 +730,38 @@ body {
         min-height: 50vh;
     }
     .frame5 p{
-        font-size: 11px;
+        font-size: 14px;
     }
     .frame9 h2{
-        font-size: 25px;
+        font-size: 32px;
     }
     .frame1 a{
-        font-size: 11px;
-        padding: 0 0 ;
+        font-size: 16px;
+        padding: 5px 0 ;
     }
     .frame1{
         padding: 5px 10px;
         height: fit-content;
+        width: 100%;
     }
     .frame2 a{
-        font-size: 11px;
-        padding: 0 0 ;
+        font-size: 16px;
+        padding: 5px 0 ;
     }
     .frame2{
         padding: 5px 10px;
         height: fit-content;
+        width: 100%;
     }
     .frame5{
         padding: 20px;
     }
     .frame8{
         gap: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
     }
     .desktop2{
         height: 25vh;
@@ -851,10 +857,28 @@ body {
         font-size: 11px;
     }
     .hubungi a{
-        font-size: 11px;
+        font-size: 14px;
+    }
+    .hubungi{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+
+    }
+    .frame46{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 100%;
+        padding: 0 20px;
     }
     .price a{
-        font-size: 11px;
+        font-size: 14px;
+    }
+    .price{
+        width: 100%;
+        display: flex;
+        justify-content: center;
     }
     .contact{
         height: 25vh;
