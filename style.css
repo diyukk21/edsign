@@ -406,7 +406,7 @@ body {
     will-change: transform;
 }
 .frame39 img {
-    width: 90px;
+    width: 68px;
     height: auto;
     object-fit: contain;
 }
@@ -814,5 +814,68 @@ body {
         width: 36px;
         height: 36px;
         font-size: 20px;
+    }
+    .desktop3{
+        height: 25vh;
+    }
+    .frame33 h2{
+        font-size: 21px;
+    }
+    .frame33 p {
+        font-size: 5px;
+    }
+    .desktop3 img{
+        width: 200px;
+    }
+    .desktop3{
+           justify-content: space-between;
+        display: flex;
+        padding: 0 10px;
+        height: fit-content;
+    }
+    .frame34 h2{
+        font-size: 12px;
+    }
+    .frame34 p {
+        font-size: 8px;
+    }
+    .proses h2{
+        font-size: 16px;
+    }
+    .frame45 h2{
+        font-size: 25px;
+    }
+    .frame45 p{
+        font-size: 11px;
+    }
+    .hubungi a{
+        font-size: 11px;
+    }
+    .price a{
+        font-size: 11px;
+    }
+    .contact{
+        height: 25vh;
+    }
+    .footer-container{
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+    }
+    .site-footer{
+        padding: 10px;
+    }
+    .footer-logo{
+        font-size: 14px;
+    }
+    .bottom-flex{
+        display: flex;
+        flex-direction: row;
+    }
+    .bottom-flex p{
+        font-size: 7px;
+    }
+    .footer-col h4{
+        font-size: 11px;
     }
 }
